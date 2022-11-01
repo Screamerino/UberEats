@@ -1,0 +1,98 @@
+.restourant {
+	margin-top: 72px;
+	background: url(img/restoraunt.png) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 364px;
+}
+
+.rest-sect {
+	background-color: white;
+	padding: 38px;
+}
+
+.rest-h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+.rest-info {
+	margin-top: 62px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rest-btn {
+	width: 100px;
+	height: 32px;
+	border-radius: 16px;
+	background-color: #262626;
+}
+
+.eat-types {
+	margin: 14px 0;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: #757575;
+}
+
+.card {
+	background-color: #eeeeee;
+	height: 160px;
+	padding-left: 16px;
+	border: #757575;
+	border-style: solid;
+	margin-bottom: 16px;
+}
+
+@media screen and (max-width: 576px) {
+	.card {
+		height: 102px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.card {
+		margin-bottom: 32px;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	.card {
+		margin-bottom: 49px;
+	}
+}
+
+.card-snack {
+	float: right;
+	height: 100%;
+}
+
+.snack-name {
+	font-size: 16px;
+	line-height: 24px;
+	color: #1d1d1d;
+}
+
+.snack-comp {
+	font-size: 13px;
+	line-height: 21px;
+	color: #626262;
+}
+
+
+
+.snack-price {
+	margin-top: 48px;
+	padding-bottom: 16px;
+	color: #1d1d1d;
+	font-size: 15px;
+	line-height: 21px;
+}
+
+p.snack-name + .snack-price {
+	margin-top: 78px;
+}
